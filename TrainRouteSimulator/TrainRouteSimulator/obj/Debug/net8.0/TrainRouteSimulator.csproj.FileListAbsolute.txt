@@ -1,0 +1,4 @@
+C:\Users\alina\RiderProjects\TrainRouteSimulator\TrainRouteSimulator\obj\Debug\net8.0\TrainRouteSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alina\RiderProjects\TrainRouteSimulator\TrainRouteSimulator\obj\Debug\net8.0\TrainRouteSimulator.AssemblyInfoInputs.cache
+C:\Users\alina\RiderProjects\TrainRouteSimulator\TrainRouteSimulator\obj\Debug\net8.0\TrainRouteSimulator.AssemblyInfo.cs
+C:\Users\alina\RiderProjects\TrainRouteSimulator\TrainRouteSimulator\obj\Debug\net8.0\TrainRouteSimulator.csproj.CoreCompileInputs.cache

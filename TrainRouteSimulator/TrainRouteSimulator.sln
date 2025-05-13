@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRouteSimulator", "TrainRouteSimulator\TrainRouteSimulator.csproj", "{947D7AB0-9195-4F33-993A-D7239EE0844C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB115336-6720-49E5-8CAC-F61B374BDA7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1417E464-C150-4B50-96EB-3B64143BAC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainRouteSimulator.Tests", "TrainRouteSimulator.Tests\TrainRouteSimulator.Tests.csproj", "{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{947D7AB0-9195-4F33-993A-D7239EE0844C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947D7AB0-9195-4F33-993A-D7239EE0844C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947D7AB0-9195-4F33-993A-D7239EE0844C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947D7AB0-9195-4F33-993A-D7239EE0844C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{947D7AB0-9195-4F33-993A-D7239EE0844C} = {BB115336-6720-49E5-8CAC-F61B374BDA7C}
+		{2AC5B6DC-3CCA-4B0C-B4ED-CACF6A40DAB3} = {1417E464-C150-4B50-96EB-3B64143BAC91}
+	EndGlobalSection
+EndGlobal
