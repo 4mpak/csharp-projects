@@ -1,0 +1,13 @@
+﻿{
+  "SettingsOptions": {
+    "PageSize": 5,
+    "Link": "http://localhost:8080/"
+  },
+  "ServiceOptions": {
+    "Seconds": 3
+  },
+  "Display": {
+    "Content": "https://i.pinimg.com/736x/12/ea/9b/12ea9b1ddaf8ee08a58426bf4dcd61db.jpg",
+    "ContentType": "URL"
+  }
+}

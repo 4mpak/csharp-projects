@@ -1,0 +1,58 @@
+﻿syntax = "proto3";
+
+import "orderHistory.proto";
+
+option csharp_namespace = "Lab3.Task2.Presentation";
+
+package order;
+
+service OrderServiceProto {
+  rpc CreateOrder(OrderRequest) returns (OrderResponse);
+  rpc AddProduct(AddProductRequest) returns (AddProductResponse);
+  rpc DeleteProduct(DeleteProductRequest) returns (DeleteProductResponse);
+  rpc ChangeStateToProcessing(StateRequest) returns (StateResponse);
+  rpc ChangeStateToCompleted(StateRequest) returns (StateResponse);
+  rpc ChangeStateToCancelled(StateRequest) returns (StateResponse);
+  rpc QueryOrderHistory(OrderHistoryRequest) returns (OrderHistoryResponse);
+}
+
+message OrderRequest {
+  string name = 1;
+}
+message OrderResponse {
+  int64 order_id = 1;
+}
+
+message AddProductRequest {
+  int64 order_id = 1;
+  int64 product_id = 2;
+  int32 product_quantity = 3;
+}
+message AddProductResponse {
+  int64 order_item_id = 1;
+}
+message DeleteProductRequest {
+  int64 order_id = 1;
+  int64 product_id = 2;
+}
+message DeleteProductResponse {
+  int64 order_item_id = 1;
+}
+
+message StateRequest {
+  int64 order_id = 1;
+}
+message StateResponse {
+  int64 order_id = 1;
+  int32 result = 2;
+}
+
+message OrderHistoryRequest {
+  int64 order_id = 1;
+  int32 page_size = 2;
+  int32 cursor = 3;
+  OrderHistoryItemKind kind = 4;
+}
+message OrderHistoryResponse {
+  repeated OrderHistory history = 1;
+}

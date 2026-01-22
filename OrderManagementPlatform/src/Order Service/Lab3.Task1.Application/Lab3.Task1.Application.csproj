@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="KafkaProto\order_creation.proto" ProtoRoot="KafkaProto" GrpcServices="Both" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentMigrator.Runner" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+        <PackageReference Include="Grpc.AspNetCore" />
+        <PackageReference Include="Npgsql" />
+        <PackageReference Include="System.Linq" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lab3.Task1.Application.Abstractions\Lab3.Task1.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\Lab3.Task1.Application.Constans\Lab3.Task1.Application.Constans.csproj" />
+      <ProjectReference Include="..\Lab3.Task1.Domain\Lab3.Task1.Domain.csproj" />
+      <ProjectReference Include="..\Lab4.Task1.Kafka\Lab4.Task1.Kafka.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿{
+  "MyClients": {
+    "Link": "http://localhost:5063"
+  },
+  "SettingsOptions": {
+    "PageSize": 5,
+    "Link": "http://localhost:8080/"
+  },
+  "ServiceOptions": {
+    "Seconds": 3
+  }
+}

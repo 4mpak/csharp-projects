@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentMigrator.Runner" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\lab-2\Task1\Task1.csproj" />
+      <ProjectReference Include="..\..\src\lab-2\Task2\Task2.csproj" />
+      <ProjectReference Include="..\..\src\lab-3\task-1\Lab3.Task1.Application\Lab3.Task1.Application.csproj" />
+      <ProjectReference Include="..\..\src\lab-3\task-1\Lab3.Task1.Infrastructure\Lab3.Task1.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
